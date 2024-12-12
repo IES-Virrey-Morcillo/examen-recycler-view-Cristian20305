@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnadirNuevoMonte">
+
+    <EditText
+        android:id="@+id/edAnadirNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la Montaña"
+        android:inputType="text"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/edAnadircontinente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Continente"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edAnadirAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/tvAnadirUrlImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL de la imagen"
+        android:inputType="textUri"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/tvAnadirUrlInformacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL de la informacion"
+        android:inputType="textUri"
+        android:textColor="@android:color/black" />
+
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+
+</LinearLayout>
